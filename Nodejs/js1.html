@@ -1,0 +1,33 @@
+<html>
+    <head><h1>Create your account</h1></head>
+    <body>
+        <div>
+            <img src='./contents/FZP.jpg' alt="Passport size photo" width="50" height="50">
+        </div>
+        <div>
+            <form>
+                Name:
+                <input type="text" id="name" name="name"><br>
+                Father's Name:
+                <input type="text" id="fname" name="fname"><br>
+                Mother's Name:
+                <input type="text" id="mname" name="mname"><br>
+                Email:
+                <input type="email" id="email" name="email"><br>
+                Country:
+                <select id="countries">
+                    <option value="bd">Bangladesh</option>
+                    <option value="in">India</option>
+                    <option value="us">USA</option>
+                    <option value="pk">Pakistan</option>
+                </select>
+                <br>
+                <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">  I Agree Terms & Coditions
+                <br>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        
+    </body>
+</html>
